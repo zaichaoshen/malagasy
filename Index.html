@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中马之家 - 马达加斯加数字服务专营店</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #ff4e50, #f9d423);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .slogan {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .intro {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: #ff4e50;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f9d423;
+            padding-bottom: 0.5rem;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        .contact-info {
+            margin-top: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">中马之家</div>
+        <div class="slogan">连接中国与马达加斯加的数字桥梁</div>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <h2>欢迎来到中马之家</h2>
+            <p>我们在这里是来自中国和世界各地的朋友们有缘聚集在马达加斯加岛，我们在这里可以一起学习语言，真诚交友，发起单身派对，以及探讨数字世界，加密货币，BTC/USDT/人民币/MAG兑换。</p>
+            <p>我们是一家新概念数字服务专营店，致力于为您提供全方位的数字生活解决方案。</p>
+        </section>
+        
+        <h2 style="text-align: center; margin-bottom: 1rem;">我们的服务</h2>
+        
+        <div class="services">
+            <div class="service-card">
+                <h3>电脑维修</h3>
+                <p>专业电脑硬件维修与软件调试，系统安装与优化，数据恢复等服务。无论台式机还是笔记本，我们都能为您解决各种问题。</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>手机维修</h3>
+                <p>智能手机屏幕更换，电池更换，进水处理，系统刷机等全方位维修服务。快速响应，价格透明。</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>跨国代购</h3>
+                <p>专业代购中国商品，帮助您购买国内优质产品并安全送达马达加斯加。电子产品、日用品、特色商品等均可代购。</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>二手电器买卖</h3>
+                <p>提供优质二手电器交易平台，严格检测，保证质量。电脑、手机、家电等各类电子产品一应俱全。</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>语言交流</h3>
+                <p>中马语言文化交流平台，帮助中国朋友学习马达加斯加语，也帮助当地朋友学习中文，促进文化交流。</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>加密货币服务</h3>
+                <p>提供BTC/USDT/人民币/MAG等数字货币兑换服务，安全可靠，帮助您进入数字金融世界。</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <h3>联系我们</h3>
+        <div class="contact-info">
+            <p>地址: 马达加斯加塔那那利佛市</p>
+            <p>电话: +261 XX XXX XXXX</p>
+            <p>邮箱: contact@zhongma-home.com</p>
+        </div>
+        <p style="margin-top: 1rem;">© 2023 中马之家 - 马达加斯加数字服务专营店</p>
+    </footer>
+</body>
+</html>
